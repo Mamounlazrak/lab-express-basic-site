@@ -1,0 +1,90 @@
+body {
+margin: 0;
+}
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f1f2f4;
+    opacity: 0.8;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar-ul-first {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0 100px;
+
+
+}
+
+.nav-bar-ul-second {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0 100px;
+
+
+}
+
+.nav-bar-item {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+}
+
+.nav-bar-item-bold {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+    font-weight: bold;
+}
+
+.header {
+    padding: 40px 100px;
+}
+
+.biography {
+    padding: 40px 100px;
+}
+
+.quote {
+    /* padding: 40px 100px;  */
+    font-weight: bold;
+}
+
+.info {
+    display: flex; 
+    flex-direction: column;
+    list-style: none;
+    justify-content: center;
+    margin: 0 auto;
+    align-content: center;
+    padding: 0;
+}
+
+.info li a {
+    color: black;
+}
+
+.basic-info {
+    display: flex;
+    border: 1px solid black;
+    height: 350px;
+    width: 230px;
+    padding: 40px 100px;
+    padding: 0;
+    margin: 0;
+
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+}
